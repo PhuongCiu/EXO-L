@@ -4,7 +4,7 @@ Mô hình tham chiếu OSI là một cấu trúc phả hệ có 7 tầng, nó x�
 
 ##2. Mô hình OSI:
 
-<img src="https://www.google.com/search?q=m%C3%B4+h%C3%ACnh+osi&biw=1366&bih=665&tbm=isch&imgil=vbC9xoTOaLDtCM%253A%253B8Udd5ePQLkJgMM%253Bhttp%25253A%25252F%25252Fkimnguyen.info%25252Fmang-may-tinh-mo-hinh-osi.html&source=iu&pf=m&fir=vbC9xoTOaLDtCM%253A%252C8Udd5ePQLkJgMM%252C_&usg=__1q566tz-46VpzsuaF4LKnjUp_m0%3D&ved=0ahUKEwiSvKa1o_fJAhURjo4KHdIWA0YQyjcIJw&ei=Alp9VpKzApGcugTSrYywBA#imgrc=AQc_CtrmBgLj6M%3A&usg=__1q566tz-46VpzsuaF4LKnjUp_m0%3D">
+![](https://www.google.com/search?q=m%C3%B4+h%C3%ACnh+osi&biw=1366&bih=665&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwid9Pr0mJrKAhUF4qYKHexOApMQ_AUIBigB#imgrc=sFeqYGh8qWraIM%3A) (<img />)
 
 ###2.1. Tầng vật lí (Physical):
 - Là tầng thấp nhất trong mô hình 7 lớp OSI.
@@ -75,7 +75,7 @@ Lớp ứng dụng đóng vai trò như một cửa sổ cho người dùng và 
 TCP/IP có cấu trúc tương tự như mô hình OSI, tuy nhiên để đảm bảo tính tương thích giữa các mạng và sự tin cậy của việc truyền thông tin trên mạng, bộ giao thức TCP/IP được chia thành 2 phần riêng biệt: giao thức IP sử dụng cho việc kết nối mạng và giao thức TCP để đảm bảo việc truyền dữ liệu một cách tin cậy.
 
 ##2. Mô hình TCP/IP:
-<img src="https://www.google.com/search?q=m%C3%B4+h%C3%ACnh+osi&biw=1366&bih=665&tbm=isch&imgil=vbC9xoTOaLDtCM%253A%253B8Udd5ePQLkJgMM%253Bhttp%25253A%25252F%25252Fkimnguyen.info%25252Fmang-may-tinh-mo-hinh-osi.html&source=iu&pf=m&fir=vbC9xoTOaLDtCM%253A%252C8Udd5ePQLkJgMM%252C_&usg=__1q566tz-46VpzsuaF4LKnjUp_m0%3D&ved=0ahUKEwiSvKa1o_fJAhURjo4KHdIWA0YQyjcIJw&ei=Alp9VpKzApGcugTSrYywBA#tbm=isch&q=m%C3%B4+h%C3%ACnh+tcp%2Fip&imgdii=qrI8fQd8ZkH28M%3A%3BqrI8fQd8ZkH28M%3A%3BJF3nILUT0m6lAM%3A&imgrc=qrI8fQd8ZkH28M%3A">
+![](https://www.google.com/search?q=m%C3%B4+h%C3%ACnh+osi&biw=1366&bih=665&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwid9Pr0mJrKAhUF4qYKHexOApMQ_AUIBigB#tbm=isch&q=m%C3%B4+h%C3%ACnh+tcp%2Fip&imgrc=qrI8fQd8ZkH28M%3A) (<img />)
 
 ###2.1. Tầng liên kết.
 Tầng liên kết - phương pháp được sử dụng để chuyển các gói tin từ tầng mạng tới các máy chủ (host) khác nhau - không hẳn là một phần của bộ giao thức TCP/IP, vì giao thức IP có thể chạy trên nhiều tầng liên kết khác nhau. Các quá trình truyền các gói tin trên một liên kết cho trước và nhận các gói tin từ một liên kết cho trước có thể được điều khiển cả trong phần mềm điều vận thiết bị (device driver) dành cho cạc mạng, cũng như trong phần sụn (firmware) hay các chipset chuyên dụng. Những thứ đó sẽ thực hiện các chức năng liên kết dữ liệu chẳng hạn như bổ sung một tín đầu (packet header) để chuẩn bị cho việc truyền gói tin đó, rồi thực sự truyền frame dữ liệu qua một môi trường vật lý.
