@@ -2,16 +2,22 @@
 
 ##Thông tin cơ bản:
 Xem máy có bao nhiêu card mạng, gõ câu lệnh:
+
  `# ifconfig -a| grep eth`
  
-Để kiểm tra xem các card mạng đã được cấu hình hay chưa:
+
+ Để kiểm tra xem các card mạng đã được cấu hình hay chưa:
+ 
  `# ifconfig `
+ 
  Lệnh này cung cấp địa chỉ  MAC, địa chỉ IP, gateway... của tất cả các card mạng.
 
+ 
  Để xem các định tuyến đi qua các mạng như thế nào gõ lệnh:
+ 
  `# route -n`
  
- ##Gán địa chỉ Ip tức thời cho card mạng:
+Gán địa chỉ Ip tức thời cho card mạng:
  `# ifconfig ethX IP-address netmask subnet-mask`
  VD: # ifconfig eth0 192.168.1.2 netmask 255.255.255.0
  

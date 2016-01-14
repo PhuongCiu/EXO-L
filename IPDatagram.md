@@ -4,7 +4,7 @@ Nhiệm vụ chính của giao thức IP là cung cấp khả năng kết nối 
 Giao thức IP lấy gói dữ liệu nhận từ lớp Transport ( từ giao thức TCP nếu bạn đang truyền dữ liệu thực như Email hoặc File ) và chia chúng thành những Datagram . Datagram là gói không có bất kì hệ thống Acknowledge , có nghĩa là IP không thực hiện bất kì hệ thống Acknowledge và như vậy nó là giao thức không tin cậy .
 Các gói tin có khuôn dạng:
 
-![](http://hatangmang.blogspot.com/2014/06/ip-header-va-van-e-inh-tuyen.html)
+<img src="http://imgur.com/6zP85Yy">
 
 ##Ý nghĩa các thông số:
 - VER (4 bits): chỉ version hiện hành của giao thức IP hiện được cài đặt, Việc có chỉ số version cho phép có các trao đổi giữa các hệ thống sử dụng version cũ và hệ thống sử dụng version mới.
